@@ -10,11 +10,11 @@ deleting all channels \
 deleting all roles \
 nicknaming everyone   \
 banning everyone \
-mass pinging in every channel \
+mass pinging in every channel 
 
 forked version features:
 giving everyone specific role \
-seeing guild ids inside the tool \
+seeing guild ids inside the tool 
 
 This bot is different from the rest, as no typing in the server is needed, it also has features that I've seen little nukers have, most just spam create roles and text channels..
 
