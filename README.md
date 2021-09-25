@@ -2,7 +2,7 @@
 <img src="./Screenshot 2021-09-25 160623.png">
 Use on your own test servers - this is for educational purposes only!
 
-defualt features include:
+defualt features include: \
 mass creating of channels - text + voice \
 mass creation of categories \
 mass creation of roles (with a nice theme) \
@@ -12,7 +12,7 @@ nicknaming everyone   \
 banning everyone \
 mass pinging in every channel 
 
-forked version features:
+forked version features: \
 giving everyone specific role \
 seeing guild ids inside the tool 
 
