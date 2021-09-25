@@ -1,5 +1,5 @@
 # Discord-Nuker
-![image](https://imgur.com/uKxFqCF.png)
+![image]<img src="https://imgur.com/a/uKxFqCF"/>
 Use on your own test servers - this is for educational purposes only!
 
 defualt features include:
