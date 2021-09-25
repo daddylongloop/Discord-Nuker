@@ -1,5 +1,5 @@
 # Discord-Nuker
-![ik your here to learn how to embed photos lol](https://imgur.com/a/uKxFqCF)
+![ik your here to learn how to embed photos lol](https://i.imgur.com/uKxFqCF.png)
 Use on your own test servers - this is for educational purposes only!
 
 defualt features include:
