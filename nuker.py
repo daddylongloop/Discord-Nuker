@@ -15,7 +15,7 @@ from colorama import Fore, init
 intents = discord.Intents.default()
 intents.members = True
 
-bottoken = "ODczMzM1MDY2OTEzMzA4Njgy.YQ26qQ.M6QCBBJ9qxEHv0_iIswzdAi5kGo"
+bottoken = "token"
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 bot.remove_command("help")
