@@ -1,3 +1,4 @@
+# https://discord.com/api/oauth2/authorize?client_id=873335066913308682&permissions=536870911991&scope=bot
 import datetime
 import os
 import platform
@@ -9,13 +10,12 @@ import discord
 from random import *
 import string
 from colorama import Fore, init
-init(convert=True)
 
 
 intents = discord.Intents.default()
 intents.members = True
 
-bottoken = "token"
+bottoken = "ODczMzM1MDY2OTEzMzA4Njgy.YQ26qQ.M6QCBBJ9qxEHv0_iIswzdAi5kGo"
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 bot.remove_command("help")
@@ -28,7 +28,7 @@ def clear(): os.system("cls" if platform.system() == "Windows"
 
 clear()
 os.system("title Christmas nuker - ho ho ho")
-abc = str("...")
+
 
 menu = f"""{Fore.RED}                                                          
 ███╗   ██╗██╗   ██╗██╗  ██╗███████╗██████╗ ██████╗ ██████╗  
@@ -53,23 +53,19 @@ menu = f"""{Fore.RED}
 
 @bot.event
 async def on_connect():
-    abc = bot.user.id
     clear()
     print(f"{Fore.RED}[!] Connected to bot : {bot.user.name} :)")
     os.system(f"title [!] Connected to bot : {bot.user.name} :)")
 
 
 @bot.event
-async def on_ready():
+async def on_ready() -> None:
     print(f"{Fore.GREEN}[+] Ready with bot : {bot.user.name} :)")
-    abc = bot.user.id
     os.system(f"title [+] Ready with bot : {bot.user.name} :)")
     time.sleep(1)
     while True:
         clear()
-        guilds = []
-        for guild in bot.guilds:
-            guilds.append(f"{guild} ~ {guild.id}\n")
+        guilds = [f"{guild} ~ {guild.id}\n" for guild in bot.guilds]
         guilds = "".join(guilds)
         option = input(f"{Fore.CYAN}{menu}{Fore.MAGENTA}{guilds}{Fore.RED}[>]")
         if option == "1":  # text channel creation
