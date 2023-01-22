@@ -7,7 +7,7 @@ packages required: \
 discord.py \
 colorama \
 \
-defualt features include: \
+default features include: \
 mass creating of channels - text + voice \
 mass creation of categories \
 mass creation of roles (with a nice theme) \
