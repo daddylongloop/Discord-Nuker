@@ -1,6 +1,6 @@
 # Discord-Nuker
 
-<img src="./Screenshot 2021-09-25 160623.png">
+<img src="./nuker_ex.png">
 Use on your own test servers - this is for educational purposes only!
 
 packages required: \
