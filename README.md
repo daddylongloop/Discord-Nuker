@@ -6,7 +6,7 @@ Use on your own test servers - this is for educational purposes only!
 packages required: \
 discord.py \
 colorama \
-
+\
 defualt features include: \
 mass creating of channels - text + voice \
 mass creation of categories \
